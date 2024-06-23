@@ -1,8 +1,8 @@
 import dns.resolver
 
 # Set the IP address of the local DNS server and a public DNS server
-#local_host_ip = "216.165.61.24"  #NYU local DNS
-local_host_ip = "172.64.46.124"
+local_host_ip = "216.165.61.24"  #NYU local DNS
+#local_host_ip = "192.168.1.1" #my local dns
 real_name_server = "172.64.46.124"  # Cloudflare NY
 
 
