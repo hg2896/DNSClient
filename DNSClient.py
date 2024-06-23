@@ -2,7 +2,7 @@ import dns.resolver
 
 # Set the IP address of the local DNS server and a public DNS server
 local_host_ip = "192.168.1.1"
-real_name_server = "65.153.78.153"  # Flagstaff DNS server
+real_name_server = "172.64.46.124"  # Cloudflare NY
 
 
 # Create a list of domain names to query - use the same list from the DNS Server
