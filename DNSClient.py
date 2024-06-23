@@ -1,7 +1,7 @@
 import dns.resolver
 
 # Set the IP address of the local DNS server and a public DNS server
-local_host_ip = "44.229.130.135"  #gradescope local DNS
+local_host_ip = "216.165.61.24"  #NYU localhost
 #local_host_ip = "192.168.1.1" #my local dns
 real_name_server = "172.64.46.124"  # Cloudflare NY
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     
     # Call the function to compare the results from both DNS servers and print the result
     result = compare_dns_servers(domainList,question_type)
-    result = query_local_dns_server('gradescope.com.',question_type)
+    result = query_local_dns_server('nyu.edu.',question_type)
     print(result)
     
     #print(exfiltrate_info())
